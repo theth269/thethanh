@@ -69,7 +69,7 @@ const messages = [
     },
     {
         img: "./assets/18.jpg", //Thay ảnh
-        text: "Thảo cười tươi tắn rạng ngời,<br> Làm lớp cứ ngỡ… nắng rơi giữa trời! 🌸" //Thay lời nhắn
+        text: "Thảo cười tươi tắn rạng ngời,<br> Làm lớp cứ ngỡ… nắng rơi giữa trời🌸<br>Chúc Thảo 20/10 một ngày lễ vui vẻ, trần đầy niềm vui nhé !" //Thay lời nhắn
     },
     {
         img: "./assets/19.jpg", //Thay ảnh
@@ -152,29 +152,14 @@ function createFallingLetter() {
 
 // remake by thethanh(random người xuất hiện)
 
-// let availableIndexes = [...Array(messages.length).keys()];
-// function showPopup() {
-//     if (availableIndexes.length === 0) {
-//         availableIndexes = [...Array(22).keys()];
-//     }
-//     const randomIndex = Math.floor(Math.random() * availableIndexes.length);
-//     const currentMessageIndex = availableIndexes[randomIndex];
-
-//     const message = messages[currentMessageIndex];
-//     popupImage.src = message.img;
-//     popupMessage.innerHTML = message.text;
-//     popup.style.display = "block";
-//     overlay.classList.add("active");
-
-//     popup.dataset.currentMessage = message.text;
-
-//     availableIndexes.splice(randomIndex, 1);
-// }
-// nếu sử dụng đoạn này thì commands dòng 181 đến 192.
-// end remake by thethanh
-        
-let currentMessageIndex = 0;
+let availableIndexes = [...Array(messages.length).keys()];
 function showPopup() {
+    if (availableIndexes.length === 0) {
+        availableIndexes = [...Array(22).keys()];
+    }
+    const randomIndex = Math.floor(Math.random() * availableIndexes.length);
+    const currentMessageIndex = availableIndexes[randomIndex];
+
     const message = messages[currentMessageIndex];
     popupImage.src = message.img;
     popupMessage.innerHTML = message.text;
@@ -183,8 +168,22 @@ function showPopup() {
 
     popup.dataset.currentMessage = message.text;
 
-    currentMessageIndex = (currentMessageIndex + 1) % messages.length;
+    availableIndexes.splice(randomIndex, 1);
 }
+// end remake by thethanh
+        
+// let currentMessageIndex = 0;
+// function showPopup() {
+//     const message = messages[currentMessageIndex];
+//     popupImage.src = message.img;
+//     popupMessage.innerHTML = message.text;
+//     popup.style.display = "block";
+//     overlay.classList.add("active");
+
+//     popup.dataset.currentMessage = message.text;
+
+//     currentMessageIndex = (currentMessageIndex + 1) % messages.length;
+// }
 
 function closePopup() {
     popup.style.display = "none";
