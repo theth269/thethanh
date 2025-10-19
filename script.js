@@ -173,7 +173,7 @@ function createFallingLetter() {
 // nếu sử dụng đoạn này thì commands dòng 181 đến 192.
 // end remake by thethanh
         
-let currentMessageIndex = 15;
+let currentMessageIndex = 0;
 function showPopup() {
     const message = messages[currentMessageIndex];
     popupImage.src = message.img;
