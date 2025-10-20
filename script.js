@@ -1,15 +1,15 @@
 const messages = [
     {
         img: "./assets/1.jpg", //Thay ảnh
-        text: "Chúc bạn luôn vui vẻ, xinh đẹp và ngập tràn yêu thương!" //Thay lời nhắn
+        text: "Chúc Duyên có 1 ngày lễ thật hạnh phúc,đẹp gái rồi thì đẹp hơn nữa,l trong các kì thi quan trọng!" //Thay lời nhắn
     },
     {
         img: "./assets/2.jpg",
-        text: "Mỗi ngày của bạn đều là một đoá hoa nở rộ."
+        text: "Hôm nay là 20-10 mình chúc Giang 1 ngày lễ thật ý nghĩa và hạnh phúc với mọi người. Ngày càng xinh đẹp học giỏi và sớm đạt được mong ước của bản thân cười tươi lên nhé, mỗi ngày của bạn đều là một đoá hoa nở rộ."
     },
     {
         img: "./assets/3.jpg",
-        text: "Cảm ơn bạn vì đã luôn mạnh mẽ và tuyệt vời như thế!"
+        text: "Chúc bạn Hải có 1 ngày 20/10 vui vẻ bên người thương nhé!"
     },
     {
         img: "./assets/4.jpg",
@@ -17,11 +17,11 @@ const messages = [
     },
     {
         img: "./assets/5.jpg",
-        text: "Bạn là món quà tuyệt vời nhất mà cuộc sống mang lại! "
+        text: "Chúc bạn 20/10 thật nhiều niềm vui và hạnh phúc.Luôn xinh tươi và rạng rỡ nhé! 😊😊"
     },
     {
         img: "./assets/6.jpg", //Thay ảnh
-        text: "Chúc bạn luôn vui vẻ, xinh đẹp và ngập tràn yêu thương!" //Thay lời nhắn
+        text: "Ngày 20/10 cuối đời học sinh, chúc Huyền có một ngày ý nghĩa, ngày càng xinh hơn, học giỏi hơn, nhiều tiền hơn, gặt hái được nhiều thành công, đặc biệt là đặt chân được vào ngôi trường mơ ước<br>Happy teacher tương lai!" //Thay lời nhắn
     },
     {
         img: "./assets/7.jpg", //Thay ảnh
@@ -41,7 +41,7 @@ const messages = [
     },
     {
         img: "./assets/11.jpg", //Thay ảnh
-        text: "Chúc bạn luôn vui vẻ, xinh đẹp và ngập tràn yêu thương!" //Thay lời nhắn
+        text: "Nhân ngày Phụ nữ Việt Nam 20/10, mình muốn gửi đến bạn Mai – một người bạn học tuyệt vời – những lời chúc chân thành nhất!Chúc bạn luôn giữ được nụ cười tươi trên môi, luôn xinh đẹp, học giỏi và thành công với những dự định phía trước. Dù sau này mỗi người có một con đường riêng, mình mong rằng tình bạn của chúng ta vẫn sẽ bền lâu và luôn gắn bó.Một lần nữa, chúc bạn một ngày 20/10 thật nhiều niềm vui, được nhận thật nhiều hoa,! 💐✨" //Thay lời nhắn
     },
     {
         img: "./assets/12.jpg", //Thay ảnh
@@ -61,7 +61,7 @@ const messages = [
     },
     {
         img: "./assets/16.jpg", //Thay ảnh
-        text: "Chúc bạn luôn vui vẻ, xinh đẹp và ngập tràn yêu thương!" //Thay lời nhắn
+        text: "Ngày 20/10 gửi bạn thảo một người con gái nước da khoẻ mạnh lại còn giàu mình chúc bạn có một ngày lễ vui vẻ mạnh khoẻ luôn đạt thành tích cao trong học tập để sau này có đủ yếu tố trở thành một phú bà!" //Thay lời nhắn
     },
     {
         img: "./assets/17.jpg", //Thay ảnh
