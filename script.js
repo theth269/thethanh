@@ -1,7 +1,7 @@
 const messages = [
     {
         img: "./assets/1.jpg", //Thay ảnh
-        text: "Chúc Duyên có 1 ngày lễ thật hạnh phúc,đẹp gái rồi thì đẹp hơn nữa,l trong các kì thi quan trọng!" //Thay lời nhắn
+        text: "Chúc Duyên có 1 ngày lễ thật hạnh phúc,đẹp gái rồi thì đẹp hơn nữa,đạt kết quả tốt  trong các kì thi quan trọng sắp tới và bớt cọc cằn, dịu dàng thêm nhé." //Thay lời nhắn
     },
     {
         img: "./assets/2.jpg",
